@@ -92,7 +92,7 @@ VALUES
     SELECT * FROM tracks_albums;
 
 --1. Write an SQL query to see the albums and the tracks that belong to that album.
-    SELECT a.title,a.released, t.title,t.lenght_time
+    SELECT a.title,a.released, t.title,t.length_time
     FROM tracks AS T
     INNER JOIN tracks_albums AS TA
     ON T.track_ID=TA.track_ID
@@ -101,7 +101,7 @@ VALUES
 
 
 --2. Write an SQL query to see the album or albums that each track belongs to.
-    SELECT t.title, t.artist, t.lenght_time , a.title,a.artist, a.released 
+    SELECT t.title, t.artist, t.length_time , a.title,a.artist, a.released 
     FROM tracks as T
     INNER JOIN tracks_albums AS TA
     ON T.track_ID = TA.track_ID
@@ -114,8 +114,8 @@ SELECT COUNT(t.title),t.title
     INNER JOIN tracks_albums AS TA
     ON T.track_ID= TA.track_ID
     INNER JOIN albums AS A
-    ON A.track_ID = TA.album_ID
-    GROUP BY  a.title;
+    ON A.album_ID = TA.album_ID
+    GROUP BY  t.title;
 
    
 --4. Write a query to see how many albums a particular track is included on.
@@ -124,5 +124,5 @@ SELECT COUNT(t.title),t.title
     INNER JOIN tracks_albums AS TA
     ON T.track_ID= TA.track_ID
     INNER JOIN albums AS A
-    ON A.track_ID = TA.album_ID
-    GROUP BY  t.title;
+    ON A.album_ID = TA.album_ID
+    GROUP BY  a.title;
