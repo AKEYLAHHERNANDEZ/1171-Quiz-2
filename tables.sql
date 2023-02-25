@@ -53,16 +53,16 @@ track_URL VARCHAR(1000) NOT NULL
 INSERT INTO tracks(title, artist, length_time,track_URL)
 VALUES 
 
-('Superman', 'Eminem', '05:50', 'https://youtu.be/Mx_yZk47YN4'),
-('Intro 2',' NF', '05:31', 'https://youtu.be/zzcOPNpKvRY') ,
-('Only', 'NF', '03:45','https://youtu.be/KzWP7APhsO4'),
-('Call out my name','The Weekend', '03:48','https://youtu.be/M4ZoCHID9GI' ),
-('Thug Passion', 'Tupac', '05:15','https://youtu.be/RkZhx6kCtR8' ),
-('Dead Wrong','Notorious B.I.G','05:15','https://youtu.be/oiPV4yXgL08' ),
-('CHEESE', 'Stray Kids', ' 03:03', 'https://youtu.be/YLtEc-kvOqA'), 
-('Maniac', 'Stray Kids','03:02','https://youtu.be/APB-AKpnKT4'),
-('Boys with luv', ' BTS', '03:49',' https://youtu.be/XsX3ATc3FbA' ),
-('Frost', 'TXT','03:15',' https://youtu.be/X3lA4EeeXtM' );
+('Superman', 'Eminem', '00:05:50', 'https://youtu.be/Mx_yZk47YN4'),
+('Intro 2',' NF', '00:05:31', 'https://youtu.be/zzcOPNpKvRY') ,
+('Only', 'NF', '00:03:45','https://youtu.be/KzWP7APhsO4'),
+('Call out my name','The Weekend', '00:03:48','https://youtu.be/M4ZoCHID9GI' ),
+('Thug Passion', 'Tupac', '00:05:15','https://youtu.be/RkZhx6kCtR8' ),
+('Dead Wrong','Notorious B.I.G','00:05:15','https://youtu.be/oiPV4yXgL08' ),
+('CHEESE', 'Stray Kids', '00:03:03', 'https://youtu.be/YLtEc-kvOqA'), 
+('Maniac', 'Stray Kids','00:03:02','https://youtu.be/APB-AKpnKT4'),
+('Boys with luv', ' BTS', '00:03:49',' https://youtu.be/XsX3ATc3FbA' ),
+('Frost', 'TXT','00:03:15',' https://youtu.be/X3lA4EeeXtM' );
 
 
 
